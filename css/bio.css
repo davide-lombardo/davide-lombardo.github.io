@@ -1,0 +1,23 @@
+h2 {
+    margin-left: 150px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    margin: 10vh;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 180px;
+    font-size: 20px;
+    line-height: 35px;
+    word-spacing: 5px;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bio-pic {
+    position: absolute;
+    margin: 135px 910px 0px;
+    border: solid 5px grey;
+}
