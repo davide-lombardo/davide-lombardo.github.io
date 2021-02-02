@@ -1,3 +1,7 @@
+.container {
+    width: 80%;
+}
+
 h2 {
     margin-left: 150px;
     text-transform: uppercase;
