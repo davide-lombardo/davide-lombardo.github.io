@@ -212,4 +212,18 @@ footer {
     font-weight: 200;
 }
 
-@media screen and (min-width: 300px) and (max-width: 910px) {}
+@media screen and (min-width: 768px) and (max-width: 980px) {}
+
+
+/*@media (max-width: 767px) {
+body      {padding:10px;background:#fff;}
+header    {width:100%;padding:20px 0 20px 0px;} 
+nav	  {width:100%;float:left;}
+#content  {width:100%;float:left;}
+aside     {width:100%;float:right;padding:20px 0 0 0px;}
+footer	  {width:100%;padding:20px 0 20px 0px;}
+#wrapper      {width:100%;margin: 0 auto;}
+#container    {width:100%;float:left;padding:20px 0 0 0;}
+#site-title a {font-size:25px;margin-left:10px;}
+
+}
