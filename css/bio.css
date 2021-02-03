@@ -3,11 +3,10 @@
 }
 
 p {
-    margin: 100px 150px 32px 180px;
+    margin: 100px 250px 100px 180px;
     font-size: 20px;
     line-height: 35px;
     word-spacing: 5px;
-    text-align: justify;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -15,4 +14,10 @@ p {
     position: absolute;
     margin: 135px 910px 0px;
     border: solid 5px grey;
+}
+
+@media screen and (min-width: 300px) and (max-width: 910px) {
+    p {
+        margin: 100px 0px 100px 20px;
+    }
 }
