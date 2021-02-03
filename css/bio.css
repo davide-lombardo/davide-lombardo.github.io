@@ -21,4 +21,7 @@ p {
         margin: 100px 0px 100px 20px;
         color: aqua;
     }
+    .container {
+        width: 100%;
+    }
 }
