@@ -13,14 +13,14 @@ if (galleryImages) {
             getLatestOpenedImg = index + 1;
 
             let container = document.body;
-            let NewImgWindow = document.createElement("div");
-            container.appendChild(NewImgWindow);
-            NewImgWindow.setAttribute("class", "img-window");
-            NewImgWindow.setAttribute("onclick", "closeImg()");
+            let newImgWindow = document.createElement("div");
+            container.appendChild(newImgWindow);
+            newImgWindow.setAttribute("class", "img-window");
+            newImgWindow.setAttribute("onclick", "closeImg()");
 
 
             let newImg = document.createElement("img");
-            NewImgWindow.appendChild(newImg);
+            newImgWindow.appendChild(newImg);
             newImg.setAttribute("src", "img/" + setNewImgUrl);
             newImg.setAttribute("id", "current-img");
 
@@ -70,7 +70,7 @@ function changeImg(changeDir) {
     let calcNewImg;
     if (changeDir === 1) {
         calcNewImg = getLatestOpenedImg + 1;
-        if (calcNewImg > galleryImages.lenght) {
+        if (calcNewImg > galleryImages.length) {
             calcNewImg = 1;
         }
     } else if (changeDir === 0) {

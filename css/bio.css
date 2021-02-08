@@ -2,7 +2,13 @@
     width: 80%;
 }
 
-p {
+.bio-pic {
+    position: absolute;
+    margin: 135px 910px 0px;
+    border: solid 5px grey;
+}
+
+.box {
     margin: 100px 250px 100px 180px;
     font-size: 20px;
     line-height: 35px;
@@ -10,18 +16,11 @@ p {
     font-family: 'Poppins', sans-serif;
 }
 
-.bio-pic {
-    position: absolute;
-    margin: 135px 910px 0px;
-    border: solid 5px grey;
-}
-
-@media screen and (min-width: 768px) and (max-width: 980px) {
-    p {
-        margin: 100px 0px 100px 20px;
-        color: aqua;
+@media screen and (max-width: 320px) {
+    .box {
+        margin: 0;
     }
-    .container {
-        width: 100%;
+    .bio-pic {
+        position: relative;
     }
 }
