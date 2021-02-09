@@ -16,11 +16,15 @@
     font-family: 'Poppins', sans-serif;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
+    .container {
+        width: 100%;
+    }
     .box {
         margin: 0;
+        padding: 80px 30px 20px;
     }
     .bio-pic {
-        position: relative;
+        display: none;
     }
 }
