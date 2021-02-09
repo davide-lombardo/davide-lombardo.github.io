@@ -212,7 +212,7 @@ footer {
     font-weight: 200;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 390px) {
     button {
         display: none;
     }
