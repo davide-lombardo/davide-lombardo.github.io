@@ -220,6 +220,10 @@ footer {
         margin: 0 10px;
         width: 80%;
     }
+    .cover img {
+        height: auto;
+        width: 100%;
+    }
 }
 
 
